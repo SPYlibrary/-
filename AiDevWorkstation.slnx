@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AiDevWorkstation.Core/AiDevWorkstation.Core.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/AiDevWorkstation.Core.Tests/AiDevWorkstation.Core.Tests.csproj" />
+  </Folder>
+</Solution>

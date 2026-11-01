@@ -1,0 +1,26 @@
+name: Bug 报告
+description: 报告可复现的问题
+title: "bug: "
+labels: [bug]
+body:
+  - type: textarea
+    attributes:
+      label: 问题描述
+      description: 实际发生了什么？
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 复现步骤
+      description: 提供最小、可重复的步骤。
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 预期行为
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 环境
+      description: Windows、Visual Studio、.NET SDK 和相关版本。
